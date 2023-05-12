@@ -20,7 +20,7 @@ Thumbs.db
 *.obj
 *.elf
 
-# Linker output
+# Linker outpu
 *.ilk
 *.map
 *.exp
