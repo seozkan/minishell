@@ -3,17 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   lexer.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tjensen <tjensen@student.42.fr>            +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 15:42:47 by hepple            #+#    #+#             */
-/*   Updated: 2022/01/17 16:10:40 by tjensen          ###   ########.fr       */
+/*   Updated: 2023/05/12 15:30:25 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lexer.h"
 #include "env.h"
 #include "exec.h"
-#include "printer.h"
 
 static t_list	*token_list_get(char *input);
 static int		redir_mark_files(t_list *l_token);
@@ -37,8 +36,6 @@ t_list	*lexer(char *input)
 		ft_lstclear(&l_token, c_token_destroy);
 		return (NULL);
 	}
-	if (env_var_is_value(DEBUG_ENV, "printer"))
-		printer_token(l_token);
 	return (l_token);
 }
 
