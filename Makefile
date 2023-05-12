@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: tjensen <tjensen@student.42.fr>            +#+  +:+       +#+         #
+#    By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/27 22:03:08 by tjensen           #+#    #+#              #
-#    Updated: 2022/07/25 20:43:58 by tjensen          ###   ########.fr        #
+#    Updated: 2023/05/12 14:27:47 by seozkan          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,10 +15,10 @@ NAME        := minishell
 CC          := gcc
 CFLAGS      := -Wall -Wextra -Werror -O2
 
-CPPFLAGS    := -I./inc -I./lib/libft/inc
+CPPFLAGS    := -I./inc -I./lib/libft/inc -I ~/goinfre/homebrew/opt/readline/include
 DEPFLAGS     = -MT $@ -MMD -MP -MF $(DDIR)/$*.d
 
-LDFLAGS     := -L./lib/libft
+LDFLAGS     := -L./lib/libft -L ~/goinfre/homebrew/opt/readline/lib
 LDLIBS      := -lft -lreadline
 
 VPATH       := src/ src/builtin/ src/cmd/ src/env/ src/exec/ src/expand/ \

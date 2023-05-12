@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/12 14:08:39 by seozkan           #+#    #+#             */
-/*   Updated: 2023/05/12 14:21:54 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/05/12 14:30:30 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@
 
 # define ERROR		-1
 
-# define PROMPT 	"$> "
+# define PROMPT 	"\033[31mshell\033[0m$> "
 # define SHELL_NAME	"minishell"
 # define DEBUG_ENV	"DEBUG"
 
