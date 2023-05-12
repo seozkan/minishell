@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exec_pipeline.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tjensen <tjensen@student.42.fr>            +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 15:31:07 by hepple            #+#    #+#             */
-/*   Updated: 2022/02/04 15:44:05 by tjensen          ###   ########.fr       */
+/*   Updated: 2023/05/12 16:02:46 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,6 @@ static void	pipeline_element(t_list *element, int pipes[2][2],
 				int i, t_list *l_free)
 {
 	int	fd[2];
-	int	status;
 
 	exec_pipeline_pipes_set(fd, pipes, i, (element->next == NULL));
 	dup2(fd[0], STDIN_FILENO);
@@ -79,12 +78,6 @@ static void	pipeline_element(t_list *element, int pipes[2][2],
 	exec_pipeline_pipes_close(pipes, -1, false);
 	if (cmd_type(element) == CMD_SCMD)
 		pipeline_scmd(element, l_free);
-	else if (cmd_type(element) == CMD_GROUP)
-	{
-		status = exec_recursive(cmd_content(element)->l_element, true, l_free);
-		exec_free_all(NULL, l_free);
-		exit (status);
-	}
 }
 
 static void	pipeline_scmd(t_list *scmd, t_list *l_free)
