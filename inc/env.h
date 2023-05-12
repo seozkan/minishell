@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/12 14:08:17 by seozkan           #+#    #+#             */
-/*   Updated: 2023/05/12 17:26:59 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/05/12 18:08:22 by hece             ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define ENV_H
 
 # include "global.h"
+
 int		env_init(void);
 char	*env_get_value(char *name);
 char	*env_find_var(char *name);

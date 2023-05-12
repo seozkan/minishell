@@ -20,7 +20,7 @@ Thumbs.db
 *.obj
 *.elf
 
-# Linker output
+# Linker outpu
 *.ilk
 *.map
 *.exp
@@ -41,7 +41,6 @@ Thumbs.db
 *.so.*
 *.dylib
 
-# Executables
 *.exe
 *.out
 *.app

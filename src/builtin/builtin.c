@@ -6,20 +6,20 @@
 /*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/12 17:29:50 by seozkan           #+#    #+#             */
-/*   Updated: 2023/05/12 17:29:52 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/05/12 18:08:58 by hece             ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "builtin.h"
 
 static const struct s_builtins	g_builtins[] = {
-	{"echo", builtin_echo},
-	{"cd", builtin_cd},
-	{"pwd", builtin_pwd},
-	{"env", builtin_env},
-	{"export", builtin_export},
-	{"unset", builtin_unset},
-	{NULL, NULL},
+{"echo", builtin_echo},
+{"cd", builtin_cd},
+{"pwd", builtin_pwd},
+{"env", builtin_env},
+{"export", builtin_export},
+{"unset", builtin_unset},
+{NULL, NULL},
 };
 
 int	builtin_check(char **argv)
