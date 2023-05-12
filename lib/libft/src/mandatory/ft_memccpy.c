@@ -3,20 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memccpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/18 16:34:21 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 10:50:58 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:19:09 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:19:10 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that copies up to 'n' bytes from memory area 'src'
- * to memory area 'dst', stopping when the character 'c' is found.
- * For overlapping memory areas, the behaviour is undefined.
- */
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
 	unsigned char	*dst_copy;

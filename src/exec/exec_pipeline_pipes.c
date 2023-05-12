@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exec_pipeline_pipes.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tjensen <tjensen@student.42.fr>            +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/17 15:30:27 by hepple            #+#    #+#             */
-/*   Updated: 2022/01/17 15:55:40 by tjensen          ###   ########.fr       */
+/*   Created: 2023/05/12 17:30:42 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:30:44 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,18 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/22 08:11:42 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 11:00:15 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:20:08 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:20:10 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that writes the integer 'n' to the file descriptor 'fd'.
- */
 void	ft_putnbr_fd(int n, int fd)
 {
 	if (n == INT_MIN)

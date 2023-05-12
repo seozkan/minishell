@@ -3,20 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/16 15:53:29 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 12:55:48 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:20:59 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:21:03 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that copies up to 'dstsize' - 1 characters from the null-terminated
- * string 'src' to 'dst' and null-terminates the result. The return value is
- * the total length of the resulting string.
- */
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;

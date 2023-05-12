@@ -3,18 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/15 16:55:36 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 10:26:37 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:17:56 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:17:57 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that converts the initial part of a string 'str' to an integer.
- */
 int	ft_atoi(const char *str)
 {
 	int			i;

@@ -3,19 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/22 08:43:54 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 10:34:01 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:18:57 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:19:01 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Helper function for ft_itoa that counts the number of digits
- * of an integer 'i' in base 10.
- */
 static size_t	num_digits(int i)
 {
 	if (i == INT_MIN)

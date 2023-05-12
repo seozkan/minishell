@@ -3,19 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/17 15:09:04 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 10:19:26 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:18:10 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:18:11 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that uses malloc to allocate memory for 'count' elements of size
- * 'size' and sets this memory to zero.
- */
 void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;

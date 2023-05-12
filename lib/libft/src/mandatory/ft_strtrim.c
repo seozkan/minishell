@@ -3,20 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/22 16:24:58 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 13:21:22 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:21:47 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:21:51 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that creates and returns a copy of string 's1' with the characters
- * specified in 'set' removed from the beginning and the end of the string.
- * Memory for the new string is obtained with malloc.
- */
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	min;

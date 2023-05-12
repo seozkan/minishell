@@ -3,18 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/23 08:40:20 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/22 11:30:32 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:20:21 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:20:25 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Helper function that frees an array of strings generated with ft_split.
- */
 static void	free_split(char ***split)
 {
 	int	i;

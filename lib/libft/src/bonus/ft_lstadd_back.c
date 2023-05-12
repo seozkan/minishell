@@ -3,18 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/24 14:05:13 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/29 11:03:16 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:16:19 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:16:40 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that adds the element 'new' at the end of the linked list 'lst'.
- */
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*current;

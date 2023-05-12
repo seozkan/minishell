@@ -3,20 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/17 13:19:11 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 10:56:33 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:19:21 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:19:26 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that compares the first 'n' bytes of the memory areas 's1'
- * and 's2'. If no difference is found, 0 is returned. Else, it returns the
- * difference between the first pair of bytes that differ in 's1' and 's2'.
- */
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*str1;

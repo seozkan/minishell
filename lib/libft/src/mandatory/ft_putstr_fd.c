@@ -3,18 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/21 18:19:01 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 11:00:57 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:20:15 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:20:17 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that writes the string 's' to the file descriptor 'fd'.
- */
 void	ft_putstr_fd(char *s, int fd)
 {
 	if (s != NULL)

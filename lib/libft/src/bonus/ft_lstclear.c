@@ -3,20 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/24 16:41:18 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/29 11:03:16 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:16:29 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:16:34 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that deletes and frees the list element 'lst' and all the elements
- * after it and setting the list pointer to NULL. For the deleting, the
- * function 'del' is used.
- */
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*tmp;

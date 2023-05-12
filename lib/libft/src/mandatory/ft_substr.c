@@ -3,20 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/21 09:20:03 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 13:23:21 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:21:57 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:21:58 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that returns a substring of the string 's', begins at index 'start'
- * and being of maximum size 'len'. Memory for the substring is obtained with
- * malloc.
- */
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char			*subs;

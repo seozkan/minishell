@@ -3,21 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/24 17:03:58 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/29 11:03:16 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:17:16 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:17:21 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that iterates through the list 'lst' and creates a copy of the
- * whole list, where the function 'f' is applied to the content of each
- * element. If needed, the function 'del' is used to delete the content of
- * an element.
- */
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_lst;

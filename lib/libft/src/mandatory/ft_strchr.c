@@ -3,19 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hepple <hepple@student.42.fr>              +#+  +:+       +#+        */
+/*   By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/16 13:45:32 by hepple            #+#    #+#             */
-/*   Updated: 2021/10/21 11:06:37 by hepple           ###   ########.fr       */
+/*   Created: 2023/05/12 17:20:27 by seozkan           #+#    #+#             */
+/*   Updated: 2023/05/12 17:20:33 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
- * Function that returns a pointer to the first occurrence of the character 'c'
- * in the string 's' or NULL if the character is not found.
- */
 char	*ft_strchr(const char *s, int c)
 {
 	int	i;
