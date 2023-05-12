@@ -41,7 +41,6 @@ Thumbs.db
 *.so.*
 *.dylib
 
-# Executables
 *.exe
 *.out
 *.app
